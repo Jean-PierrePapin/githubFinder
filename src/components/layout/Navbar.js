@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ const Navbar = ({ icon, title }) => {
         </nav>
     )
 
-}
+};
 
 Navbar.defaultProps = {
     title:  'Github Finder',
@@ -32,4 +32,4 @@ Navbar.propTypes = {
     icon: PropTypes.string.isRequired
 };
 
-export default Navbar
+export default Navbar;
